@@ -1,0 +1,16 @@
+{
+  "name": "following-with-imba",
+  "scripts": {
+    "dev": "imba -w server.imba",
+    "build": "imba build server.imba",
+    "preview": "node dist/server.js",
+    "prod": "npx pm2 start dist/server.js"
+  },
+  "dependencies": {
+    "@clerk/clerk-js": "^5.67.3",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "imba": "^2.0.0-alpha.245"
+  }
+}
