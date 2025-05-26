@@ -119,7 +119,12 @@ global css @root .dark
 	--sidebar-ring: oklch(0.556 0 0);
 
 
+global css 
+	.navbar d:flex ai:center jc:space-between  mx:auto w:100% px:14 py:4 bgc:white px!@sm:4
+	.home-section d:flex gap:1rem jc:space-between ai:flex-start w:100% flex-direction@!1024:column-reverse ai@!1024:center
 
+	.companion-grid d:flex flex-wrap:wrap gap:1rem w:100% jc!@768:center
+	.companion-card d:flex flex-direction:column jc:space-between border-radius:2rem border:1px solid #000 p:1rem gap:1.25rem w:100% max-width@1024:410px 
 
 
 # @layer base {

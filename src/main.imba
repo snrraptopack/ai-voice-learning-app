@@ -5,18 +5,17 @@ import {SignIn} from "./pages/Signin"
 import {Companions} from "./pages/companions/Companions.imba"
 import {Profile} from "./pages/my-journey/Profile"
 import {Subscription} from "./pages/subscription/Subscription"
+import {Navbar} from "./component/Navbar"
 
-import  {Subject} from "./types"
 
 tag app
 
 	def render
 		<self>
-
-			<SignIn route="/sign-in">
+			<Navbar>
 			<Companions route="/companions">
-			<Profile route="my-journey">
-			<Subscription route="subscription">
+			<Profile route="/my-journey">
+			<Subscription route="/subscription">
 			
 
 			<div route="/*">
